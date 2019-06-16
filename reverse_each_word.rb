@@ -6,7 +6,7 @@ def reverse_each_word(sentence)
     id = words.index word 
     rwords[id] = word.reverse
     if id < words.size-1
-      s = s + word.reverse 
+      s = s + word.reverse + " "
     else 
       s = s + word.reverse
     end
