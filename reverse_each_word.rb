@@ -1,17 +1,18 @@
 def reverse_each_word(sentence)
   words = sentence.split
   rwords = []
+  s = ""
   words.collect do |word|
     id = words.index word 
     rwords[id] = word.reverse
     if id < words.size-1
-      print word.reverse + ", "
+      s = s + word.reverse + ", "
     else 
-      print word.reverse
+      s = s + word.reverse
     end
   end
   
-  return rwords
+  return s
 end
 
 
