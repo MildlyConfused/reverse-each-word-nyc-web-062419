@@ -2,9 +2,9 @@ def reverse_each_word(sentence)
   words = sentence.split
   rwords = []
   words.collect do |word|
-    puts words.index word
+    id = words.index word
     rword = word.reverse 
-    
+    rwords[id] = rword
   end
 
 end
