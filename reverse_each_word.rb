@@ -7,7 +7,8 @@ def reverse_each_word(sentence)
     if id < words.size
       print word.reverse + ", "
     else 
-      print word.reverse + 
+      print word.reverse
+    end
   end
   
   return rwords
