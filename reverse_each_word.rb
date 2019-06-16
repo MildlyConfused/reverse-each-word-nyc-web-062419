@@ -4,6 +4,8 @@ def reverse_each_word(sentence)
     puts word
     word.reverse 
     puts word
+  end
+
 end
 
 
