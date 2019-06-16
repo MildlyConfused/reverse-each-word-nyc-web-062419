@@ -5,7 +5,8 @@ def reverse_each_word(sentence)
     id = words.index word 
     rwords[id] = word.reverse
   end
-
+  puts rwords.inspect
+  return rwords
 end
 
 
