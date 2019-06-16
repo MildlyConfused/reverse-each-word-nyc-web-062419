@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   words.collect do |word|
     id = words.index word 
     rwords[id] = word.reverse
-    if id < words.size
+    if id < words.size-1
       print word.reverse + ", "
     else 
       print word.reverse
