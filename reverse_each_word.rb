@@ -11,7 +11,7 @@ def reverse_each_word(sentence)
       s = s + word.reverse
     end
   end
-  
+  puts s
   return s
 end
 
